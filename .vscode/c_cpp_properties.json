@@ -1,0 +1,64 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Mac",
+            "macFrameworkPath": [],
+            "includePath": [
+                "/Users/kenfrederick/Google Drive/Development/Arduino/Prost/include",
+                "/Users/kenfrederick/Google Drive/Development/Arduino/Prost/src",
+                "/Users/kenfrederick/Google Drive/Development/Arduino/Prost/.pio/libdeps/sparkfun_promicro16/USBMIDI_ID5841/src",
+                "/Users/kenfrederick/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/Users/kenfrederick/.platformio/packages/framework-arduino-avr/variants/sparkfun_promicro",
+                "/Users/kenfrederick/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/Users/kenfrederick/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/Users/kenfrederick/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/Users/kenfrederick/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/Users/kenfrederick/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/Users/kenfrederick/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/kenfrederick/Google Drive/Development/Arduino/Prost/include",
+                    "/Users/kenfrederick/Google Drive/Development/Arduino/Prost/src",
+                    "/Users/kenfrederick/Google Drive/Development/Arduino/Prost/.pio/libdeps/sparkfun_promicro16/USBMIDI_ID5841/src",
+                    "/Users/kenfrederick/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/Users/kenfrederick/.platformio/packages/framework-arduino-avr/variants/sparkfun_promicro",
+                    "/Users/kenfrederick/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/Users/kenfrederick/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/Users/kenfrederick/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/Users/kenfrederick/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/Users/kenfrederick/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/Users/kenfrederick/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=40304",
+                "ARDUINO_AVR_PROMICRO16",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "USB_VID=0x1B4F",
+                "USB_PID=0x9206",
+                "USB_PRODUCT=\"Prost\"",
+                "USB_MANUFACTURER=\"SparkFun\"",
+                "__AVR_ATmega32U4__",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/Users/kenfrederick/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega32u4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
