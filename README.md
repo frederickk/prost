@@ -10,6 +10,7 @@ Here's a brief [demo video](https://www.youtube.com/watch?v=BwLtm9UBdX8) with [A
 
 [![Prost! video demo](.prost-youtube-demo.jpg)](https://www.youtube.com/watch?v=BwLtm9UBdX8&feature=youtu.be)
 
+
 ------
 ## 💾 Firmware
 
@@ -35,14 +36,14 @@ Before building and flashing be sure to install dependencies.
 
 **Build and Flash**
 
-For 5v / 16MHz boards use:
+For 5V / 16MHz boards use:
 
 ```bash
   # Build and flash firmware
   pio run -e sparkfun_promicro16 -t upload
 ```
 
-If using 3.3v / 8MHz boards use:
+If using 3.3V / 8MHz boards use:
 
 ```bash
   # Build and flash firmware
@@ -85,12 +86,12 @@ Although, the board is designed first and foremost for Pro Micros it can accomod
 
 | Qty. | Part No. | Item |
 | ---- | -------- | ---- |
-| **2**    | | **5V/3.3VV [Pro Micro](https://www.sparkfun.com/products/12587)** |
+| **2**    | | **5V/3.3V [Pro Micro](https://www.sparkfun.com/products/12587)** |
 | **1**    | **[1825910-6](https://octopart.com/1825910-6-te+connectivity-42270338?r=sp)** | **6mm Momentary push button** |
 | 2    | [WP154A4SUREQBFZGW](https://octopart.com/wp154a4sureqbfzgw-kingbright-12087875?r=sp) | 5mm RGB LED (optional) |
 | 4    | | 1 x 10 female header (optional) |
 
-Syncing with analog Midi devices is also possible. Look for the 5-pin Midi graphic on the board and you'll find pin breakouts to connect a 5-pin Midi connector. Be sure to obtain 2 220 ohm resistors as well.
+Syncing with DIN Midi devices is also possible. Look for the 5-pin Midi graphic on the board and you'll find pin breakouts to connect a 5-pin Midi connector. Be sure to obtain 2 220 ohm resistors as well.
 
 | Qty. | Part No. | Item |
 | ---- | -------- | ---- |
